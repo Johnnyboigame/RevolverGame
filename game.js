@@ -32,6 +32,7 @@ function animate() {
 
 animate();
 
+/*
 
 //keypressed event listener for input
 window.addEventListener('keydown', function(e) {
@@ -41,3 +42,5 @@ window.addEventListener('keydown', function(e) {
         default: alert(code); break;
     }
 });
+
+*/
