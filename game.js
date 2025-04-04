@@ -1,6 +1,3 @@
-import { Player } from './player.js';
-
-
 var canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth;
@@ -12,7 +9,7 @@ var c = canvas.getContext('2d');
 
 class Player {
 
-    constructor(x, y, dx, dy, radius, c) {
+    constructor(x, y, dx, dy, radius) {
         this.x = x;
         this.y = y;
         this.dx = dx;
@@ -40,8 +37,8 @@ class Player {
 
 
 const playerArrary = [
-    new Player(100, 100, 1, 1, 10, c),
-    new Player(200, 100, 1, 1, 10, c)
+    new Player(100, 100, 1, 1, 10),
+    new Player(200, 100, 1, 1, 10)
 ];
 
 
