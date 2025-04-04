@@ -6,7 +6,7 @@ export class Player {
         this.dx = dx;
         this.dy = dy;
         this.radius = radius;
-        this.canvas = canvas.getContext('2d');
+        this.c = canvas.getContext('2d');
     }
 
     draw() {
