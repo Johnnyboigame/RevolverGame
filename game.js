@@ -22,10 +22,11 @@ function animate() {
 
     c.clearRect(0, 0, innerWidth, innerHeight);
 
-
+    /*
     for (const element of playerArrary) {
         element.draw();
     }
+    */
 
 
 }
@@ -34,10 +35,11 @@ animate();
 
 
 //keypressed event listener for input
-window.addEventListener('keydown', function(event) {
-    switch (event.code()) {
+
+window.addEventListener('keydown', (event) => {
+    switch (event.code) {
         case 76: playerArrary[0].update(); break;
         case 75: playerArrary[1].update(); break;
-        default: alert(event); break;
+        default: break;
     }
-});
+  });
