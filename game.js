@@ -1,4 +1,4 @@
-var canvas = document.querySelector('canvas');
+const canvas = document.querySelector('canvas');
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -10,8 +10,8 @@ import { Player } from './player.js';
 
 
 const playerArrary = [
-    new Player(100, 100, 1, 1, 10, c),
-    new Player(200, 100, 1, 1, 10, c)
+    new Player(100, 100, 1, 1, 10, canvas),
+    new Player(200, 100, 1, 1, 10, canvas)
 ];
 
 
