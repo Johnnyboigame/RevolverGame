@@ -24,7 +24,7 @@ function animate() {
 
 
     for (const element of playerArrary) {
-        element.draw();
+        element.update();
     }
 
 
