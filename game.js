@@ -22,11 +22,9 @@ function animate() {
 
     c.clearRect(0, 0, innerWidth, innerHeight);
 
-    /*
     for (const element of playerArrary) {
         element.draw();
     }
-    */
 
 
 }
