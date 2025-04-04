@@ -1,12 +1,11 @@
 export class Player {
 
-    constructor(x, y, dx, dy, radius, canvas) {
+    constructor(x, y, dx, dy, radius, c) {
         this.x = x;
         this.y = y;
         this.dx = dx;
         this.dy = dy;
         this.radius = radius;
-        this.c = canvas.getContext('2d');
     }
 
     draw() {
