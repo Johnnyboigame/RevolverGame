@@ -6,6 +6,7 @@ export class Player {
         this.dx = dx;
         this.dy = dy;
         this.radius = radius;
+        this.c = c;
     }
 
     draw() {
