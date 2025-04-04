@@ -1,6 +1,6 @@
 export class Player {
 
-    constructor(x, y, dx, dy, radius) {
+    constructor(x, y, dx, dy, radius, c) {
         this.x = x;
         this.y = y;
         this.dx = dx;
@@ -23,7 +23,4 @@ export class Player {
 
         this.draw();
     }
-
-    
-
 }

@@ -10,8 +10,8 @@ import { Player } from './player.js';
 
 
 const playerArrary = [
-    new Player(100, 100, 1, 1, 10),
-    new Player(200, 100, 1, 1, 10)
+    new Player(100, 100, 1, 1, 10, c),
+    new Player(200, 100, 1, 1, 10, c)
 ];
 
 
