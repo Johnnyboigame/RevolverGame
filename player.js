@@ -13,8 +13,11 @@ export class Player {
     draw() {
         this.c.beginPath();
         this.c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
+        this.c.beginPath();
+        this.c.rect(this.x - 5, this.y + 20, 10, 20);
         this.c.fillStyle = 'blue';
         this.c.fill();
+
 
     }
 
