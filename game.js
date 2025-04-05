@@ -33,11 +33,17 @@ animate();
 
 
 //keypressed event listener for input
-
-window.addEventListener('keydown', (event) => {
+/*
+window.addEventListener('keydown', function(event) {
     switch (event.code) {
         case 76: playerArrary[0].update(); break;
         case 75: playerArrary[1].update(); break;
         default: break;
     }
+  });
+  */
+
+
+  window.addEventListener('mousemove', function() {
+    playerArrary[0].update();
   });
