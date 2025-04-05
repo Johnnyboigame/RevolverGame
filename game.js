@@ -26,6 +26,8 @@ function animate() {
         if (element.spin == true) {
         element.update();
         }
+
+        
         element.draw();
     }
 
