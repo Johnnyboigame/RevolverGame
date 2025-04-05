@@ -21,8 +21,6 @@ export class Player {
     update() {
         this.x += this.dx;
         this.y += this.dy;
-
-        this.draw();
     }
 
     setSpin(spin) {
