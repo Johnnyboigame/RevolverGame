@@ -1,11 +1,11 @@
 export class Player {
 
-    constructor(x, y, dx, dy, radius, c) {
+    constructor(x, y, dx, dy, c) {
         this.x = x;
         this.y = y;
         this.dx = dx;
         this.dy = dy;
-        this.radius = radius;
+        this.radius = 15;
         this.c = c;
         this.spin = false;
     }
@@ -19,7 +19,7 @@ export class Player {
 
         //square
         this.c.beginPath();
-        this.c.rect(this.x - 5, this.y + 20, 10, 20);
+        this.c.rect(this.x - 2.5, this.y + 25, 5, 15);
         this.c.fillStyle = 'blue';
         this.c.fill();
     }
