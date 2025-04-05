@@ -10,8 +10,8 @@ import { Player } from './player.js';
 
 
 const playerArrary = [
-    new Player(100, 100, 1, 1, 10, c),
-    new Player(200, 100, 1, 1, 10, c)
+    new Player(100, 100, 1, 1, 10, c)
+    //new Player(200, 100, 1, 1, 10, c)
 ];
 
 
@@ -27,7 +27,7 @@ function animate() {
         element.update();
         }
 
-        
+
         element.draw();
     }
 
