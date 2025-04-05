@@ -23,7 +23,9 @@ function animate() {
     c.clearRect(0, 0, innerWidth, innerHeight);
 
     for (const element of playerArrary) {
-        element.draw();
+        if (element.spin == true) {
+        element.update();
+        }
     }
 
 
@@ -44,6 +46,10 @@ window.addEventListener('keydown', function(event) {
   */
 
 
-  window.addEventListener('keypress', function() {
-    playerArrary[0].update();
+  window.addEventListener('keydown', function() {
+    playerArrary[0].setSpin(true);
+  });
+
+  window.addEventListener('keyup', function() {
+    playerArrary[0].setSpin(false);
   });

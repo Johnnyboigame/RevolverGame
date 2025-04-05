@@ -7,6 +7,7 @@ export class Player {
         this.dy = dy;
         this.radius = radius;
         this.c = c;
+        this.spin = false;
     }
 
     draw() {
@@ -22,5 +23,9 @@ export class Player {
         this.y += this.dy;
 
         this.draw();
+    }
+
+    setSpin(spin) {
+        this.spin = spin;
     }
 }
