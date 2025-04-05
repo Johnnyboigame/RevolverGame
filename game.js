@@ -44,6 +44,6 @@ window.addEventListener('keydown', function(event) {
   */
 
 
-  window.addEventListener('keydown', function() {
+  window.addEventListener('keypress', function() {
     playerArrary[0].update();
   });
